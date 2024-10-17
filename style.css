@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Maven Pro", sans-serif;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 18rem;
+    height: 14rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    position: relative;
+    padding: 1.9rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    margin-top: 60px;
+}
+
+.Username {
+    display: flex;
+    flex-direction: column;
+    width: max-content
+}
+
+.Password {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.Button button {
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-top: 0.85rem;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+    height: 1.6rem;
+    max-width: 15rem;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 10px;
+    font-weight: 500;
+    background: transparent;
+    color: black;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+}
+.btn-pass {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 500;
+}
+
+input::placeholder {
+    color: rgba(10, 10, 10, 0.65);
+}
+
+button:hover {
+    transform: scale(1.001);
+    outline: 0.9px solid
+}
+
+.login {
+    color: wheat;
+    font-size: 2.5rem;
+    position: absolute;
+
+}
+
+.parent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 300px ;
+    align-content: space-evenly;
+}
